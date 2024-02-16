@@ -1,0 +1,15 @@
+.ppscurrencyexchangeheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    background-color: rgba(151, 151, 179, 0.685);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    position: relative;
+    &__title{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

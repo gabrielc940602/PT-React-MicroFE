@@ -1,0 +1,44 @@
+.ppsindexpage {
+    display: flex;
+    justify-content: center;
+    container: page-container / size;
+    height: 100%;
+    box-sizing: border-box;
+
+
+    &__card {
+        width: 100%;
+        height: fit-content;
+        margin: 30px;
+
+
+        >form {
+            width: 100%;
+
+            margin-bottom: 0px;
+
+            >div {
+                margin: auto;
+                max-width: 1200px;
+
+                >.button {
+                    margin-top: 10px;
+                }
+
+            }
+
+            >* {
+                margin-bottom: 10px;
+            }
+
+            // grid-template-columns: repeat(auto-fill, minmax(min(150px*3, 100%), 1fr));
+        }
+    }
+
+    &__inputscontainer {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    }
+}
